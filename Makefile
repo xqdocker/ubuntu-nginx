@@ -1,5 +1,5 @@
 REPOSITORY = xqdocker/ubuntu-nginx
-GIT_VERSION = 0.1.0
+GIT_VERSION = 0.1.1
 VERSION = $(shell TZ=Asia/Shaanxi date +'%Y%m%d%H%M')
 
 image:
@@ -7,7 +7,7 @@ image:
 
 git-release:
 	git fetch --tags
-	git tag "v${GIT_VERSION}"
+	git tag -a v${GIT_VERSION} -m "Release version ${GIT_VERSION}"
 	git push --tags
 
 release: image
