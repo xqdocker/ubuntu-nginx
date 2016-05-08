@@ -1,5 +1,5 @@
 REPOSITORY = xqdocker/ubuntu-nginx
-GIT_VERSION = "1.0"
+GIT_VERSION = 0.1.0
 VERSION = $(shell TZ=Asia/Shaanxi date +'%Y%m%d%H%M')
 
 image:
