@@ -9,7 +9,7 @@ RUN apt-get update -qqy \
    && apt-get install -qqy nginx
 
 ADD nginx/nginx.conf /etc/nginx/nginx.conf
-ADD nginx/conf.d/defult.conf /etc/nginx/conf.d/default.conf
+ADD nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf
 
 ADD data/www /data/www
 
