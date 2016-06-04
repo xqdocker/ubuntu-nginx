@@ -2,11 +2,11 @@
 
 ## How to release this repo
 
+* First: Change the version by VERSION file.
+
 ### Release this repo in git.
 
-* Step one: Change the git version in Makefile
-
-* Step two: Call release command to release in git.
+* Step one: Invoke release command to release in git.
 
   ```
   $ make git-release
