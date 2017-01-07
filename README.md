@@ -2,6 +2,12 @@
 
 A simple config for nginx on ubuntu system.
 
+[![Ubuntu 14.04](https://img.shields.io/badge/ubuntu-14.04-brightgreen.svg)]()
+[![Nginx 1.10.1](https://img.shields.io/badge/nginx-1.10.1-brightgreen.svg)]()
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/xqdocker/ubuntu-nginx.svg)](https://hub.docker.com/r/xqdocker/ubuntu-nginx/)
+[![Docker Stars](https://img.shields.io/docker/stars/xqdocker/ubuntu-nginx.svg)](https://hub.docker.com/r/xqdocker/ubuntu-nginx/)
+[![Docker image](https://images.microbadger.com/badges/image/xqdocker/ubuntu-nginx.svg)](https://microbadger.com/images/xqdocker/ubuntu-nginx)
 
 ## How to use this image
 

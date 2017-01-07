@@ -5,7 +5,8 @@ MAINTAINER Xiaoqi Cao <thomascxq@gmail.com>
 
 RUN apt-get update -qqy \
    && apt-get install -qqy software-properties-common \
-   && apt-add-repository -y ppa:nginx/stable && apt-get update -qqy \
+   && apt-add-repository -y ppa:nginx/stable \
+   && apt-get update -qqy \
    && apt-get install -qqy nginx
 
 ADD nginx/nginx.conf /etc/nginx/nginx.conf
