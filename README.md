@@ -73,7 +73,7 @@ There are some methods to use this image.
 
   ```
   my-nginx:
-    image: ubuntu-nginx
+    image: xqdocker/ubuntu-nginx
     volumes:
       - /my/static/content:/data/www
       - /my/nginx.conf:/etc/nginx/nginx.conf
